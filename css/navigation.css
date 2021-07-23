@@ -1,0 +1,163 @@
+
+.navigation-left img{
+    Width :220px;
+  
+    height: auto;
+
+
+}
+.navigation-right img {
+    margin: 15px auto;
+   
+    float: left;
+    padding: 0px 5px;
+}
+.navigation-right h6 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 130px;
+    color: rgba(0, 0, 0, 0.51);
+    width: 88px;
+    font-family: Open Sans;
+    font-size: 16px;
+ 
+}
+
+.navigation-right h5 {
+    font-size: 16px;
+    margin-top: 1px;
+    margin-left: 130px;
+    color: #000000;
+    width: 148px;
+    font-family: Open Sans;
+    
+ 
+}
+
+.navigation-bettween {
+    margin: 20px auto;
+}
+
+.navigation-bettween  input{
+height: 44px;   
+border-radius: 20px;
+border-top: 3px solid #42549A;
+
+border-bottom: 3px solid #42549A;;
+border-left: 3px solid #42549A;;
+/* border: 3px solid #42549A; */
+
+}
+.navigation-bettween  select{
+    height: 44px;   
+
+    border-top: 3px solid #42549A;
+
+    border-bottom: 3px solid #42549A;;
+  
+}
+
+.navigation-bettween  button{
+color: white;
+background-color:#42549A ;
+border-radius: 20px;
+width: 60px;
+}
+@media only screen and (max-width: 1224px) {
+    .navigation-left img {
+        Width: 180px!important;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .col-2 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .col-4 {
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .navigation-left img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation-right img{
+        display: none;
+    }
+    .navigation-right h5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navigation-right h6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation-bettween {
+        width: 70%;
+    }
+
+    .navigation-two-left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col-lg-6 nav{
+      display: none;
+    
+    }
+   
+  
+  
+       
+}
+
+
+
+
+.col-2 {
+         padding-right: 0px!important; 
+padding-left: 0px!important; 
+}
+.col-lg-6 {
+    padding-right: 0px!important; 
+padding-left: 0px!important; 
+}
+.navigation-two-left button {
+    background-color: black;
+}
+
+.navigation-two-left  select{
+    background-color:#42549A ;
+    color: white;
+}
+
+.navigation-two-left {
+    margin-top: -20px;
+}
+
+.nav {
+    width: 90%;
+    border-top:1px solid #42549A ;
+    border-bottom: 1px solid #42549A;
+}
+
+.nav .nav-link{
+    color: black;
+}
+
+.nav .active {
+color: #42549A;
+} 
+
